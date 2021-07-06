@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Usuários - Hcode Treinamentos</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+  
+    <!-- Main Header -->
+  <header>
+    <nav class="navbar navbar-dark bg-primary" style="background-color: #e3f2fd; margin-bottom: 0px;">
+      <div class="container-md ">
+        <a class="navbar-brand" >Cadastro</a>
+       
+      </div>
+    </nav>
+    
+  </header>
+  
+
+  <!-- Main content -->
+  <section class="content container-fluid">
+
+    <div class="row">
+      <div class="col-md-12" style="padding-top: 0px;">
+        <div class="form-group .col-md-4 text-right" >
+          <button type="submit" class="btn btn-danger text-right">X</button>
+        </div>
+      </div>
+      <div class="col-md-12">
+
+        <div class="box box-success" id ="box-user-create">
+            <div class="box-header with-border">
+              <h3 class="box-title">Novo Usuário</h3>
+              
+            </div>
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form role="form" id="form-user-create">
+              <div class="box-body">
+                <div class="form-group">
+                  <label for="exampleInputName">Nome</label>
+                  <input type="text" required class="form-control" id="exampleInputName" placeholder="Digite o nome do usuário" name="name" >
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">E-mail</label>
+                  <input type="email" required class="form-control" id="exampleInputEmail" placeholder="Digite o e-mail" name="email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Senha</label>
+                  <input type="password" required class="form-control" id="exampleInputPassword" placeholder="Crie uma senha" name="password">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Repetir Senha</label>
+                  <input type="password" required class="form-control" id="exampleInputPassword" placeholder="Repita senha" name="password">
+                </div>
+                <div class="form-group .col-md-4 .offset-md-4 text-right" >
+                  
+                  <button type="submit" class="btn btn-primary">Já tenho conta</button>
+                </div>
+                
+                
+              </div>
+              <!-- /.box-body -->          
+              <div class="box-footer text-center">
+                <button type="submit" class="btn btn-success ">Cadastrar</button>
+              </div>
+            </form>
+          </div>
+
+        
+      </div>
+    </div>
+   
+
+  </section>
+    <!-- /.content -->
+ 
+ 
+</div>
+
+</body>
+</html>
