@@ -1,0 +1,24 @@
+
+#interfaceLogin{
+	position: relative;
+	text-align: center;
+	background: #CCCCCC;
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+h1{
+	font-weight: bold;
+	text-transform: uppercase ;
+}
+
+
+#interfaceLogin #voltaInicio{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	padding-bottom: 5px 5px 5px 5px;
+
+}
+

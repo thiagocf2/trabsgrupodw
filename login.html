@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<head>
-    <title>Login</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
 
-<body>
-    <h1>Login</h1>
-    <div id="id01" class="modal">
-  
-        <form class="modal-content animate" action="/action_page.php" method="post">
-      
-          <div class="container">
-            <label for="uname"><b>E-Mail</b></label><br>
-            <input type="email" placeholder="Digite o email" name="uname" required><br><br>
-      
-            <label for="senha"><b>Senha</b></label><br>
-            <input type="password" placeholder="Digite a Senha" name="senha" required><br><br>
-            <a href="#">Esqueci a senha</a><br><br>
-            <a href="#">Criar nova conta</a><br><br>
-            <button type="submit">Entrar</button>
-          </div>
-        </form>
-      </div>
-</body>
+        <link rel="stylesheet" href="login.css">    
+
+    </head>
+
+    <body>
+
+        
+        <div id="interfaceLogin">
+            <h1>Login</h1>
+            <button id="voltaInicio">X</button>
+            <form>
+                <div class="container">
+                    <label for="uname"><b>E-Mail</b></label><br>
+                    <input type="email" placeholder="Digite o email" name="uname" required><br><br>
+                    <label for="senha"><b>Senha</b></label><br>
+                    <input type="password" placeholder="Digite a Senha" name="senha" required><br><br>
+                    <a href="esqueciASenha.html">Esqueci a senha</a><br><br>
+                    <a href="criarNovaConta.html">Criar nova conta</a><br><br>
+                    <button type="submit">Entrar</button>
+                </div>
+            </form>
+        </div>
+    </body>
 </html>
